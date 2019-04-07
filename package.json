@@ -4,15 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrations": " node database/migrations/database.migration"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
+    "dynamic-html-pdf": "^1.0.0",
     "express": "^4.16.4",
-    "jwt-simple": "^0.5.5"
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.2.5"
   }
 }

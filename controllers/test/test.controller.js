@@ -3,9 +3,13 @@
 
 
 function prueba(req, res) {
-  res.status(200).json({
-    message: 'Hola mundo follow controller'
-  });
+    res.status(200).json({
+      ok: true,
+      data: ''
+      
+    });
+  
+  
 }
 
 module.exports =  prueba;
